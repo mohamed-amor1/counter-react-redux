@@ -1,18 +1,63 @@
-.App {
+/* Import Tailwind CSS */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
+/* Global styles for the body */
+body {
   text-align: center;
+  margin: 0 auto;
+  max-width: 800px; /* Adjust max-width as needed */
+  padding: 50px;
+  max-height: 80vh;
+  font-family: "Fira Mono", monospace;
+}
+.my-button-class {
+  font-size: 40px;
+  color: white;
+}
+/* Footer styles */
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  color: gray;
+  margin-bottom: 0px;
+  margin-top: 240px;
+  border-top: 1px solid #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button styles */
+button {
+  font-weight: bold; /* Use 'bold' instead of 'bolder' */
+  font-size: 5rem;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Span styles */
+span {
+  font-size: 66px;
+  margin: 50px;
+  padding-top: 50px;
 }
 
+/* Title styles */
+.title {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 150px;
+}
+
+/* App header styles */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,17 +67,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
