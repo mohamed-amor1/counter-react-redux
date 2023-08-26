@@ -20,10 +20,9 @@ Welcome to the Counter App, a simple yet powerful demonstration of how Redux and
    git clone https://github.com/your-username/counter-app.git
    cd counter-app
    npm install
-npm start
-Open Your Browser:
-
-Visit http://localhost:3000 in your web browser to start using the Counter App.
+   npm start
+   Open Your Browser:
+   Visit http://localhost:3000 in your web browser to start using the Counter App.
 
 ## Usage
 Click the "+" button to increment the count.
