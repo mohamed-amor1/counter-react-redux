@@ -1,6 +1,6 @@
 # Counter App with Redux and React
 
-Welcome to the Counter App, a simple yet powerful demonstration of how Redux and React can work together seamlessly to manage state in your web applications. This app's design is created using Tailwind CSS and enhanced with Daisy UI.
+Welcome to the Counter App, a simple yet powerful demonstration of how Redux and React can work together seamlessly to manage state in your web applications. This app's design is created using [Tailwind CSS](https://tailwindcss.com/) and enhanced with [Daisy UI](https://daisyui.com/).
 
 ![Counter App Screenshot](./screenshot.png)
 
